@@ -1,0 +1,29 @@
+<html>
+<head>
+<script language="javascript">
+ var m=parseInt(prompt("Enter number of rows"));
+ var a=new Array(m);
+ var n=parseInt(prompt("Enter number of columns"));
+ for(var i=0;i<m;i++)
+ {
+  a[i]=new Array(n);
+ }
+ for(var i=0;i<m;i++)
+ {
+  for(var j=0;j<n;j++)
+  {
+   a[i][j]=parseInt(prompt("Enter value"));
+  }
+ }
+ for(var i=0;i<m;i++)
+ {
+  for(var j=0;j<n;j++)
+  {
+   document.writeln(a[i][j]);
+  }
+  document.writeln("<br>");
+ }  
+ 
+</script>
+</head>  
+</html>
